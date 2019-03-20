@@ -1,13 +1,13 @@
-###################################
-git clone repo :
+#
+##git clone repo :
 
 need to install local:
-   kubectl:                  -- https://kubernetes.io/docs/tasks/tools/install-kubectl/
-   aws-iam-authenticator:    -- https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html
-   terraform:                -- https://learn.hashicorp.com/terraform/getting-started/install.html
-   helm:                     -- https://helm.sh/docs/using_helm/
+kubectl:                  -- https://kubernetes.io/docs/tasks/tools/install-kubectl/
+aws-iam-authenticator:    -- https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html
+terraform:                -- https://learn.hashicorp.com/terraform/getting-started/install.html
+helm:                     -- https://helm.sh/docs/using_helm/
 
-#terraform to setup eks with two worker nodes on Mutli AZ  
+##terraform to setup eks with two worker nodes on Mutli AZ  
 cd eks-cluster/
 terraform init  
 terraform plan
