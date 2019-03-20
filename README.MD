@@ -54,7 +54,7 @@ helm install --name DashBoard ./kubernetes-dashboard  --namespace kube-system
 
 kubectl get svc -n kube-system  -- to get external loadbalancer dns name
 
-check: https://<externalip or loadbalancer dns>
+check: https://ahwchehxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-wets2.coms
 
 login token: kubectl describe secret k8dashboard-kubernetes-dashboard-token-7725b -n kube-system
  
@@ -67,7 +67,7 @@ helm install --name tomcat ./tomcat
 
 kubectl get svc -- to get external loadbalancer dns name
 
-check: http://<externalip or loadbalancer dns>
+check: http://ahwchehxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-wets2.com
 
 
 
@@ -77,7 +77,7 @@ helm install --name couchdb ./couchdb
 
 kubectl get svc -- to get external loadbalancer dns name
 
-check: http://<externalip or loadbalancer dns>:5984/_utils/index.html
+check: http://ahwchehxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-wets2.com:5984/_utils/index.html
 
 
 
