@@ -45,6 +45,7 @@ kubectl create -f tillerRBAC.yaml
 
 helm init --service-account tiller
 
+#used ingress method as extrtnal loadbalancer in kubernete(type: LoadBalancer)
 
 
 #install dashboard using helm
@@ -66,7 +67,7 @@ helm install --name tomcat ./tomcat
 
 kubectl get svc -- to get external loadbalancer dns name
 
-check: https://<externalip or loadbalancer dns>
+check: http://<externalip or loadbalancer dns>
 
 
 
@@ -76,7 +77,7 @@ helm install --name couchdb ./couchdb
 
 kubectl get svc -- to get external loadbalancer dns name
 
-check: https://<externalip or loadbalancer dns>:5984/_utils/index.html
+check: http://<externalip or loadbalancer dns>:5984/_utils/index.html
 
 
 
